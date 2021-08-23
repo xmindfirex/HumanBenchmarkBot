@@ -1,0 +1,545 @@
+<OpenSpanDesignDocument Version="1.0" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Adapters.Web.Universal.UniversalWebAdapter" />
+    <Assembly Value="OpenSpan.Adapters.Web" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Virtual, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Web.Universal, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Web.WebBase, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Adapters.Windows, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.ApplicationFramework, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences>
+      <File Value="DefaultWindowFactoryConfiguration.xml" />
+      <File Value="openspan.ini" />
+      <File Value="OpenSpan.x32.sys" />
+      <File Value="OpenSpan.x64.sys" />
+      <File Value="Pega.GlobalAllocator.x32.dll" />
+      <File Value="Pega.GlobalAllocator.x64.dll" />
+      <File Value="Pega.Scout.x32.dll" />
+      <File Value="Pega.Scout.x64.dll" />
+      <File Value="Pega.Security.x32.dll" />
+      <File Value="Pega.Security.x64.dll" />
+      <File Value="Pega.SharedMemory.x32.dll" />
+      <File Value="Pega.SharedMemory.x64.dll" />
+      <File Value="Pega.Sinon.x32.dll" />
+      <File Value="Pega.Sinon.x64.dll" />
+      <File Value="Pega.Utilities.x32.dll" />
+      <File Value="Pega.Utilities.x64.dll" />
+      <File Value="Pega.WER.x32.dll" />
+      <File Value="Pega.WER.x64.dll" />
+      <File Value="Pega.Windows.Broker.x32.dll" />
+      <File Value="Pega.Windows.Broker.x64.dll" />
+      <File Value="Pega.WinQueue.x32.dll" />
+      <File Value="Pega.WinQueue.x64.dll" />
+    </BuildReferences>
+    <StartAtRuntime Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Adapters.Web.Universal.UniversalWebAdapter Name="Human Benchmark" Id="UniversalWebAdapter-8D965AF2DFE5742">
+      <BrowserType Value="Edge" />
+      <StartPage Value="https://humanbenchmark.com/" />
+      <Content Name="Controls">
+        <Items>
+          <OpenSpan.Adapters.Web.WebBase.Controls.WebPage Name="HumanBenchmark1" Id="WebPage-8D965AFF6FA9E92">
+            <DummyPropertyToDetectReplaceUndo Value="0" />
+            <ForwardObjectExplorerEvent Value="True" />
+            <InherentlySensitive Value="False" />
+            <IsGlobal Value="True" />
+            <MatchingIndex Value="0" />
+            <PegaId Value="0" />
+            <Sensitive Value="False" Extended="True" />
+            <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlDocumentTarget, OpenSpan.Adapters.Web.WebBase" />
+            <XrayGuid Value="" />
+            <Content Name="Controls">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="HumanBenchmarkTitle" Id="WebControl-8D965AFF6F15626">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="0" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="H1" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert3" Id="VirtualPropertyMatchRule-8D965AFF73E3015">
+                        <PropertyName Value="openspan_path" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|H1,DIV,DIV,DIV,DIV,DIV,DIV,DIV,BODY,HTML" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="LoginButton" Id="Link-8D965AFFDF0BB96">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="7" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert4" Id="VirtualPropertyMatchRule-8D965AFFE17D7E3">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|LOGIN" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert5" Id="VirtualPropertyMatchRule-8D965AFFE1E6315">
+                        <PropertyName Value="href" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|https://humanbenchmark.com/login" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Form Name="LoginForm" Id="Form-8D965B019445223">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="0" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="FORM" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlFormElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="Controls">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.Controls.TextBox Name="username" Id="TextBox-8D965B01940842A">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <MatchingIndex Value="0" />
+                        <PegaId Value="0" />
+                        <Sensitive Value="False" Extended="True" />
+                        <TagName Value="INPUT" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputTextElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                        <UseElementId Value="False" />
+                        <XrayGuid Value="" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert7" Id="VirtualPropertyMatchRule-8D965B019609098">
+                              <PropertyName Value="type" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|text" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert8" Id="VirtualPropertyMatchRule-8D965B01964379A">
+                              <PropertyName Value="name" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|username" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.WebBase.Controls.TextBox>
+                      <OpenSpan.Adapters.Web.WebBase.Controls.TextBox Name="password" Id="TextBox-8D965B01CF0179A">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <MatchingIndex Value="1" />
+                        <PegaId Value="0" />
+                        <Sensitive Value="True" Extended="True" />
+                        <TagName Value="INPUT" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputPasswordElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                        <UseElementId Value="False" />
+                        <XrayGuid Value="" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert9" Id="VirtualPropertyMatchRule-8D965B01CF9FBE2">
+                              <PropertyName Value="type" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|password" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper10" Id="VirtualPropertyMatchRule-8D965B01CFC6B35">
+                              <PropertyName Value="name" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|password" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.WebBase.Controls.TextBox>
+                      <OpenSpan.Adapters.Web.WebBase.Controls.Button Name="Login" Id="Button-8D965B01F663F1A">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <InherentlySensitive Value="False" />
+                        <MatchingIndex Value="2" />
+                        <PegaId Value="0" />
+                        <Sensitive Value="False" Extended="True" />
+                        <TagName Value="INPUT" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlInputSubmitElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                        <UseElementId Value="False" />
+                        <XrayGuid Value="" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper11" Id="VirtualPropertyMatchRule-8D965B01F70983F">
+                              <PropertyName Value="type" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|submit" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                            <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper12" Id="VirtualPropertyMatchRule-8D965B01F732081">
+                              <PropertyName Value="openspan_index" />
+                              <Sensitive Value="False" Extended="True" />
+                              <Text Value="Simple|True|(User Culture)|2" />
+                            </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.WebBase.Controls.Button>
+                    </Items>
+                  </Content>
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert6" Id="VirtualPropertyMatchRule-8D965B01957CDF6">
+                        <PropertyName Value="action" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|https://humanbenchmark.com/login" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Form>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="LogoutButton" Id="Link-8D965B1F349271B">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="6" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper13" Id="VirtualPropertyMatchRule-8D965B1F3890D8D">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|LOGOUT" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper14" Id="VirtualPropertyMatchRule-8D965B1F38DEC38">
+                        <PropertyName Value="href" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|https://humanbenchmark.com/logout" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="HomeNav" Id="Link-8D965B369E17812">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="4" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper15" Id="VirtualPropertyMatchRule-8D965B36A66A445">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|HUMAN BENCHMARK" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper16" Id="VirtualPropertyMatchRule-8D965B36A6C1EBB">
+                        <PropertyName Value="href" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|https://humanbenchmark.com/" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="Home_ReactionTimeNav" Id="WebControl-8D965B3C2BEF2B6">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="0" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="H3" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper17" Id="VirtualPropertyMatchRule-8D965B3C2FF2B0B">
+                        <PropertyName Value="openspan_path" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|H3,A,DIV,DIV,DIV,DIV,DIV,DIV,BODY,HTML" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_SequenceMemoryNav" Id="Link-8D965B3F776F5D6">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="10" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper18" Id="VirtualPropertyMatchRule-8D965B3F793BA63">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|NewSequence MemorySequence MemoryRemember an increasingly long pattern of button presses." />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_AimTrainerNav" Id="Link-8D965B409084A49">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="11" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper19" Id="VirtualPropertyMatchRule-8D965B4091846D3">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|NewAim TrainerAim TrainerHow quickly can you hit all the targets?" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_NumberMemoryNav" Id="Link-8D965B43F49234E">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="11" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper20" Id="VirtualPropertyMatchRule-8D965B43F674942">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|Number MemoryNumber MemoryRemember the longest number you can." />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_VerbalMemoryNav" Id="Link-8D965B4AD65BCAF">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="12" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper21" Id="VirtualPropertyMatchRule-8D965B4AD85161C">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|Verbal MemoryVerbal MemoryKeep as many words in short term memory as possible." />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_ChimpTestNav" Id="Link-8D965B4BB28DF42">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="13" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper22" Id="VirtualPropertyMatchRule-8D965B4BB36917C">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|Chimp TestChimp TestAre you smarter than a chimpanzee?" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_VisualMemoryNav" Id="Link-8D965B4C689D118">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="14" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper23" Id="VirtualPropertyMatchRule-8D965B4C698BAFA">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|Visual MemoryVisual MemoryRemember an increasingly large board of squares." />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.Link Name="Home_TypingNav" Id="Link-8D965B4CE42B472">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="15" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlAnchorElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper24" Id="VirtualPropertyMatchRule-8D965B4CE503FAC">
+                        <PropertyName Value="innerText" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|TypingTypingHow many words per minute can you type?" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.Link>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="TypingTestTitle" Id="WebControl-8D965B4DA1428B2">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="0" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="H1" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper25" Id="VirtualPropertyMatchRule-8D965B4DA24D41F">
+                        <PropertyName Value="openspan_path" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|H1,DIV,DIV,DIV,DIV,DIV,DIV,BODY,HTML" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="TypingTestInput" Id="WebControl-8D965B4E74BC4D4">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="14" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="DIV" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper26" Id="VirtualPropertyMatchRule-8D965B4E75F6678">
+                        <PropertyName Value="openspan_path" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|DIV,DIV,DIV,DIV,DIV,DIV,DIV,BODY,HTML" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+                <OpenSpan.Adapters.Web.WebBase.Controls.BasicButton Name="SavescoreButton" Id="BasicButton-8D965B5BF9D9848">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="1" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="BUTTON" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlButtonElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper27" Id="VirtualPropertyMatchRule-8D965B5BFD314B4">
+                        <PropertyName Value="type" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|submit" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper28" Id="VirtualPropertyMatchRule-8D965B5BFD709B3">
+                        <PropertyName Value="openspan_index" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|1" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.BasicButton>
+                <OpenSpan.Adapters.Web.WebBase.Controls.WebControl Name="DashboardScoreHistory" Id="WebControl-8D965B5D2E000B3">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <InherentlySensitive Value="False" />
+                  <MatchingIndex Value="32" />
+                  <PegaId Value="0" />
+                  <Sensitive Value="False" Extended="True" />
+                  <TagName Value="DIV" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.WebBase.Targets.VirtualHtmlElementTarget, OpenSpan.Adapters.Web.WebBase" />
+                  <UseElementId Value="False" />
+                  <XrayGuid Value="" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualProper29" Id="VirtualPropertyMatchRule-8D965B5D2FC74C8">
+                        <PropertyName Value="openspan_path" />
+                        <Sensitive Value="False" Extended="True" />
+                        <Text Value="Simple|True|(User Culture)|DIV,DIV,DIV,DIV,DIV,DIV,DIV,DIV,BODY,HTML" />
+                      </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.WebBase.Controls.WebControl>
+              </Items>
+            </Content>
+            <Content Name="MatchRules">
+              <Items>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert1" Id="VirtualPropertyMatchRule-8D965AFF714CB63">
+                  <PropertyName Value="url" />
+                  <Sensitive Value="False" Extended="True" />
+                  <Text Value="Simple|True|(User Culture)|https://humanbenchmark.com/" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+                <OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule Name="VirtualPropert2" Id="VirtualPropertyMatchRule-8D965AFF725D6B8">
+                  <PropertyName Value="title" />
+                  <Sensitive Value="False" Extended="True" />
+                  <Text Value="Simple|True|(User Culture)|Human Benchmark" />
+                </OpenSpan.Adapters.Web.WebBase.MatchRules.VirtualPropertyMatchRule>
+              </Items>
+            </Content>
+          </OpenSpan.Adapters.Web.WebBase.Controls.WebPage>
+        </Items>
+      </Content>
+      <Content Name="ElectronConfiguration">
+        <OpenSpan.Adapters.Web.Universal.Electron.ElectronConfiguration>
+          <Path Value="" />
+        </OpenSpan.Adapters.Web.Universal.Electron.ElectronConfiguration>
+      </Content>
+    </OpenSpan.Adapters.Web.Universal.UniversalWebAdapter>
+  </Component>
+</OpenSpanDesignDocument>

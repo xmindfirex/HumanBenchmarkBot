@@ -1,0 +1,30 @@
+<OpenSpanDesignDocument Version="1.0" Serializer="2.0" Culture="en-US">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.Automator" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies>
+      <Dependency Id="UniversalWebAdapter-8D965AF2DFE5742" IsUsed="False" />
+    </Dependencies>
+    <AssemblyReferences>
+      <Assembly Value="OpenSpan, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=21.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="False" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.Automator Name="InitialRecording" Id="Automator-8D965AF2DF951A2">
+      <AutomationDocument>
+        <Name Value="" />
+        <Size Value="5000, 5000" />
+        <Objects />
+        <Links />
+        <Comments />
+        <SubGraphs />
+      </AutomationDocument>
+    </OpenSpan.Automation.Automator>
+  </Component>
+</OpenSpanDesignDocument>

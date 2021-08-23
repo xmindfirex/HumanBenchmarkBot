@@ -1,0 +1,35 @@
+{
+  "WorkspaceSettings": [
+    {
+      "Name": "Properties",
+      "DesignerId": "UniversalWebAdapter-8D965AF2DFE5742",
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerId": "UniversalWebAdapter-8D965AF2DFE5742",
+      "Settings": {
+        "PropertyGrid": "Visible"
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerId": "Automator-8D965B2B58F3E56",
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerId": "Automator-8D965B2B58F3E56",
+      "Settings": {
+        "PropertyGrid": "Collapsed"
+      }
+    }
+  ],
+  "ActiveDesignerId": "Automator-8D965B2B58F3E56"
+}

@@ -1,0 +1,14 @@
+{
+  "Id": "$project_id$",
+  "Exclude": [
+    "**.user",
+    "**.settings",
+    "**.pSys*",
+    "bin",
+    "_xray_",
+    ".git",
+    "**.git*"
+  ],
+  "Include": [
+  ]
+}
